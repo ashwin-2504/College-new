@@ -1,27 +1,59 @@
 :root {
-    --black: #141414;
-    --yellow: #FFEB33;
+  --black: #141414;
+  --yellow: #ffeb33;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    color: white;
+  margin: 0;
+  padding: 0;
+  /*border: 1px dashed white;*/
+}
+
+body {
+  background-color: var(--black);
+}
+
+.navbar {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  border: 1px solid white;
+}
+
+.logo {
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+}
+
+.logo img {
+  width: 30%;
 }
 
 .body {
-    width: 100%;
-    height: 100%;
-    background-color: var(--black);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  /*border: 1px solid white;*/
+  width: 100%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .main {
-    height: 80%;
-    width: 90%;
-    margin-bottom: -5rem;
-    border-radius: 14px;
-    background-color: var(--yellow);
+  color: var(--black);
+  height: 90%;
+  width: 90%;
+  border-radius: 14px;
+  background-color: var(--yellow);
+  overflow: hidden;
+}
+
+.s1 {
+  display: flex;
+  height: 100%;
+  border: 1px dashed red;
+  margin: 1rem;
 }
