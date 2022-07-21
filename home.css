@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
 
+
+/*font-family: 'Roboto Mono', monospace;*/
+
 :root {
     --black: #141414;
     --yellow: #ffeb33;
@@ -8,6 +11,7 @@
 * {
     margin: 0;
     padding: 0;
+    color: white;
     /*    border: 1px dashed white;*/
 }
 
@@ -16,69 +20,15 @@ body {
 }
 
 .navbar {
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    height: 10%;
     display: flex;
-    align-items: center;
-    /*border: 1px dashed green;*/
+    border: 1px solid red;
+    height: 18%;
 }
 
 .logo {
-    /*    border: 1px solid blueviolet;*/
-    margin-top: 1rem;
-    height: 100%;
+    border: 1px solid blue;
 }
 
-.logo img {
-    margin-left: 1rem;
+.logo img{
     width: 50%;
-}
-
-.menu {
-    display: flex;
-    justify-content: right;
-    align-items: center;
-    height: 100%;
-    width: 100%;
-}
-
-.menu button {
-    font-size: large;
-    border-top: none;
-    border-bottom: 1px solid var(--yellow);
-    border-left: none;
-    border-right: none;
-    color: white;
-    background-color: transparent;
-    margin: 1rem;
-    padding: .3rem 1rem;
-    font-family: 'Roboto Mono', monospace;
-    letter-spacing: .3rem;
-}
-
-.body {
-    /*border: 1px solid white;*/
-    width: 100%;
-    height: 90%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.main {
-    color: var(--black);
-    height: 90%;
-    width: 90%;
-    border-radius: 14px;
-    background-color: var(--yellow);
-    overflow: hidden;
-}
-
-.s1 {
-    display: flex;
-    height: 100%;
-    border: 1px dashed red;
-    margin: 1rem;
 }
