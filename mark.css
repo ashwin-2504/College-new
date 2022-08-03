@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
+
+
+/**/
+
+:root {
+    --black: #141414;
+    --yellow: #ffeb33;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+    /*    border: 1px dashed white;*/
+}
+
+body {
+    background-color: var(--black);
+}
+
+.navbar {
+    padding: 10px 0px;
+    display: flex;
+    height: max-content;
+}
+
+.logo {
+    display: flex;
+    width: 50%;
+    padding-left: 10%;
+}
+
+.logo img {
+    width: 50%;
+}
+
+.menu {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+.menu button {
+    padding: .5rem 1rem;
+    background-color: transparent;
+    color: var(--yellow);
+    font-family: 'Roboto Mono', monospace;
+    letter-spacing: .5rem;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom-color: var(--yellow);
+}
+
+.body {
+    border: 1px solid white;
+    min-height: 80%;
+    color: white;
+
+}
+
+.main {
+    margin: 1rem;
+    height: 77%;
+    border: 1px solid red;
+    padding: 1rem;
+}
+
+.main h1 {
+    font-size: 34px;
+}
+
+.table {
+    color: var(--yellow);
+    border: 1px solid#ffeb33;
+}
+
+.table tr th {
+    border: 1px solid#ffeb33;
+    padding: 5px;
+    font-size: 44px;
+    width: 25rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.table tr td {
+    border: 1px solid#ffeb33;
+    text-align: center;
+    font-size: 22px;
+    padding: 5px;
+}
